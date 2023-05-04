@@ -1,4 +1,6 @@
 Stronka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/
+
+
 Rozwiązania które kminiłem:
 
 * 1 miejsce pogadanka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/399553
