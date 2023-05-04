@@ -1,3 +1,16 @@
+Stronka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/
+Rozwiązania które kminiłem:
+
+* 1 miejsce pogadanka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/399553
+* 1 miejsce solution - https://www.kaggle.com/code/rustyb/paris-madness-2023#Data-preparation!
+  (to chyba jest skonfigurowane rozwiązanie stąd https://www.kaggle.com/code/raddar/paris-madness)
+* 2 miejsce pogadanka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/401578 (tam jest podane 5 notebooków z rozwiązaniami)
+
+Ogólnie to wydaje się jakby ziomek na drugim miejscu zrobił więcej i lepiej wytłumaczył to, ale jest napisane w R. 1 miejsce jest w pythonie.
+  
+
+
+
 ___
 # Co się dzieje? Co chcemy osiągnąć?
 
