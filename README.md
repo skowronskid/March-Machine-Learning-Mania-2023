@@ -1,31 +1,19 @@
-Stronka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/
+
+This is a project for [March Machine Learning Mania 2023 Kaggle competition]( https://www.kaggle.com/competitions/march-machine-learning-mania-2023/)
 
 
-Rozwiązania ludzi:
+The file structure in this repository is as follows:
+- _data_ directory - This is where we store all the data used in our project, as well as any additional data that was available to us.
+- _final_datasets_ directory - This is where we store the tables for man's and women's data after the feature engineering. The data is ready for modeling.
+- _presentation_ directory - Inside there is our presentation in two formats.
+- _submission_ directory - In this directory we store our best solution and files necessary to determine our final score: 
+  -  _MNCAATourneyDetailedResults.csv_ and _MNCAATourneyDetailedResults.csv_- datasets with match outcomes for March Madness tourneys including this year's tourney.
+  -  _submission.csv_ - our submision dataset, it's compatible with the expected solution by the competition organisers.
+  -  _scoring.ipynb_ - jupyter notebook for calculating our scores.
+-  _feature\_engineering.ipynb - jupyter notebook with the data preparation and  feature engineering pipeline.
+-  _modeling.ipynb_ - jupyter notebook with the XGBoost model and base seed\_diff model
+-  _other\_models.ipynb_ - jupyter notebook with other - worse models
 
-* 1 miejsce pogadanka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/399553
-* 1 miejsce solution - https://www.kaggle.com/code/rustyb/paris-madness-2023#Data-preparation! - Python
-  (to chyba jest skonfigurowane rozwiązanie stąd https://www.kaggle.com/code/raddar/paris-madness)
-* 2 miejsce pogadanka - https://www.kaggle.com/competitions/march-machine-learning-mania-2023/discussion/401578 (tam jest podane 5 notebooków z rozwiązaniami) - więcej zrobione, w R.
 
 
-  
-
-
-
-___
-# Co się dzieje? Co chcemy osiągnąć?
-
-Generalnie mamy zmodelować na podstawie wyników z poprzednich turniejów, aktualnego sezonu 22/23, seedów do turniejów prawdopodobieństwo rezultatów meczy każdy vs każdy jakie mogą się wydarzyć turnieju w 2023. Wiemy jakie drużyny będą brały udział w turnieju bo mamy seedy na 2023 rok. Ramka, którą mamy otrzymać wygląda tak:
-
-ID | Pred
----|---
-2023_1101_1102 | 0.6
-2023_1101_1103 | 0.4
-2023_1101_1104 | 0.5
-... | ...
-
-Gdzie ID to indywidualne ID meczu zrobione jako 2023_(TeamID drużyny o mniejszym ID)_(TeamID drużyny o większym ID). Pred to prawdopodobieństwo tego, że drużyna o mniejszym ID wygra z drużyną o większym ID. Czyli na przykład dla pierwszego wiersza pstwo 0.6 oznacza, prawdopodobieństwo że drużyna 1101 wygra z drużyną 1102 w turnieju w 2023 roku.
-
-W jednej ramce mamy zawrzeć wyniki turnieju mężczyzn i kobiet. Ich TeamID nie są takie same więc nie ma problemu z powtarzającym się ID. Oczywiście mężczyźni nie grają z kobietami.
 
