@@ -14,6 +14,6 @@ The file structure in this repository is as follows:
 -  _modeling.ipynb_ - jupyter notebook with the XGBoost model and base seed\_diff model
 -  _other\_models.ipynb_ - jupyter notebook with other - worse models
 
-
+For more information about the project read the _raport.pdf_ file.  
 
 
