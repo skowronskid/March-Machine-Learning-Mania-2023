@@ -10,7 +10,7 @@ The file structure in this repository is as follows:
   -  _MNCAATourneyDetailedResults.csv_ and _MNCAATourneyDetailedResults.csv_- datasets with match outcomes for March Madness tourneys including this year's tourney.
   -  _submission.csv_ - our submision dataset, it's compatible with the expected solution by the competition organisers.
   -  _scoring.ipynb_ - jupyter notebook for calculating our scores.
--  _feature\_engineering.ipynb - jupyter notebook with the data preparation and  feature engineering pipeline.
+-  _feature\_engineering.ipynb_ - jupyter notebook with the data preparation and  feature engineering pipeline.
 -  _modeling.ipynb_ - jupyter notebook with the XGBoost model and base seed\_diff model
 -  _other\_models.ipynb_ - jupyter notebook with other - worse models
 
